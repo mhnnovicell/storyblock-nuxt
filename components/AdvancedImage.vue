@@ -1,6 +1,6 @@
 <template>
   <div class="image" v-editable="blok">
-    <img v-bind:src="blok.image" v-bind:alt="blok.name">
+    <img v-bind:src="blok.img.image" v-bind:alt="blok.img.alt_tag">
   </div>
 </template>
 

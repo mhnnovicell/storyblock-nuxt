@@ -1,8 +1,13 @@
 <template>
   <div>
-    <nuxt />
+    <TheHeader></TheHeader>
+    <main class="main-content">
+      <nuxt/>
+    </main>
   </div>
 </template>
+
+
 
 <style>
 html {
@@ -51,5 +56,9 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.main-content {
+  margin-top: 4.5rem;
 }
 </style>

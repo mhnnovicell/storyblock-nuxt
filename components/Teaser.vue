@@ -1,6 +1,7 @@
 <template>
-  <div class="teaser" v-editable="blok">
+  <div v-if="blok.headline" class="teaser" v-editable="blok">
     <h1>{{blok.headline}}</h1>
+    <div>{{blok.content}}</div>
   </div>
 </template>
 
